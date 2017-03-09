@@ -1,0 +1,21 @@
+{
+  "name": "nzch",
+  "version": "1.0.0",
+  "description": "http://nzchinasociety.org.nz/",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hawkroc/NZCH.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hawkroc/NZCH/issues"
+  },
+  "homepage": "https://github.com/hawkroc/NZCH#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
