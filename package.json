@@ -4,6 +4,9 @@
   "description": "http://nzchinasociety.org.nz/",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --progress",
+    "build": "NODE_ENV=production webpack --config ./webpack.production.config.js --progress"
+  },
   },
   "repository": {
     "type": "git",
@@ -16,6 +19,7 @@
   },
   "homepage": "https://github.com/hawkroc/NZCH#readme",
   "devDependencies": {
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
   }
 }
