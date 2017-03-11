@@ -17,7 +17,7 @@ var gulp           = require('gulp'),
 
 gulp.task('scripts', function() {
 	return gulp.src([
-		'app/libs/jquery/dist/jquery.min.js',
+		//'app/libs/jquery/dist/jquery.min.js',
 		'app/js/common.js', 
 		])
 	.pipe(concat('scripts.min.js'))
@@ -38,7 +38,7 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('sass', function() {
-	return gulp.src('app/sass/**/*.sass')
+	return gulp.src('app/sass/**/*.scss')
 	.pipe(sass({
 		includePaths: bourbon.includePaths
 	}).on("error", notify.onError()))
@@ -50,7 +50,7 @@ gulp.task('sass', function() {
 });
 
 gulp.task('watch', ['sass', 'scripts', 'browser-sync'], function() {
-	gulp.watch('app/sass/**/*.sass', ['sass']);
+	gulp.watch('app/sass/**/*.scss', ['sass']);
 	gulp.watch(['libs/**/*.js', 'app/js/common.js'], ['scripts']);
 	gulp.watch('app/*.html', browserSync.reload);
 });
