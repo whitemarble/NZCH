@@ -1,25 +1,28 @@
 {
-  "name": "nzch",
-  "version": "1.0.0",
-  "description": "http://nzchinasociety.org.nz/",
+  "name": "optimizedhtml",
+  "version": "2.0.0",
+  "description": "OptimizedHTML - Start HTML Template",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress",
-    "build": "NODE_ENV=production webpack --config ./webpack.production.config.js --progress"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hawkroc/NZCH.git"
-  },
-  "author": "",
+  "author": "WebDesign Master",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hawkroc/NZCH/issues"
-  },
-  "homepage": "https://github.com/hawkroc/NZCH#readme",
   "devDependencies": {
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.1"
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean-css": "^3.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-util": "^3.0.8",
+    "node-bourbon": "^4.2.8",
+    "vinyl-ftp": "^0.6.0"
   }
 }
