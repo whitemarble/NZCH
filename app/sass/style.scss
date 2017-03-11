@@ -1,0 +1,14 @@
+.mobile-search{width:100%;display:flex}
+.mobile-search input{flex:1; display:inline-block;margin:8px 15px 8px 15px}
+#nav-search{display:none; width:100%}
+#nav-search-form{width:100%;display:flex}
+#nav-search input{flex:1;margin-right:15px}
+#nav-search button{flex:none;float:right}
+
+@media screen and (min-width: 768px) {
+    .navbar-header{display:none}
+    
+}
+@media screen and (max-width: 768px) {
+    #mysearchbutton{display:none}
+}
