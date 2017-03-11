@@ -7,5 +7,5 @@
 ```gulp default ```
 
 ### Architecture
-1.sass --put all scss or sass into this fold gulp will reverse them to css and merge them into one style.min.css
-2.js   -- the gulp will merge all js into script.min.js
+1.sass >put all scss or sass into this fold gulp will reverse them to css and merge them into one style.min.css
+2.js  > the gulp will merge all js into script.min.js
