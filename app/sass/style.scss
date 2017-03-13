@@ -1,14 +1,16 @@
-.mobile-search{width:100%;display:flex}
-.mobile-search input{flex:1; display:inline-block;margin:8px 15px 8px 15px}
-#nav-search{display:none; width:100%}
-#nav-search-form{width:100%;display:flex}
-#nav-search input{flex:1;margin-right:15px}
-#nav-search button{flex:none;float:right}
+#main-search{display:none;width:100%}
+#main-search input{flex:1}
+.social-icon{float:right}
+.main-logo{float:left}
+.navbar{width:100%}
+.mobile-search{display:flex}
+.mobile-search .form-control{margin-right:0.5rem}
+.mobile-search button{margin-right:0.5rem}
 
 @media screen and (min-width: 768px) {
-    .navbar-header{display:none}
+    .mobile-nav{display:none}
     
 }
 @media screen and (max-width: 768px) {
-    #mysearchbutton{display:none}
+    #search-button{display:none}
 }

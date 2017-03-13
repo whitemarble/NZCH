@@ -1,16 +1,15 @@
-$(function() {
+function showseach()
+    {
+        document.getElementById("main-menu").style.display="none";
+        document.getElementById("search-button").style.display="none";
+        document.getElementById("main-search").style.display="flex";
+        document.getElementById("search-input").focus();
 
-	$("#search").click(function() {
-    $("#navMenu").toggle(400, 'linear');
-    $("#searchinput").toggle(400, 'linear');
-});
+    }
 
-$("#menue").mouseover(function() {
-    $("#hidenContent").toggle(400, 'swing');
-});
-
-$("#hidenContent").mouseleave(function() {
-    $("#hidenContent").toggle(400, 'swing');
-});
-
-});
+    function hidesearch()
+    {
+        document.getElementById("main-menu").style.display="flex";
+        document.getElementById("search-button").style.display="inline-block";
+        document.getElementById("main-search").style.display="none";
+    }
