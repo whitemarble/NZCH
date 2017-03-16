@@ -189,8 +189,7 @@ title:after {
     -ms-flex-item-align: auto;
     align-self: auto;
     max-width: 50%;
-    padding-left: auto;
-    padding-right: auto;
+    padding: auto;
     width: 8em;
     text-align: center;
     font-size: 0;
@@ -203,7 +202,7 @@ title:after {
     font-size: 16px;
     font-size: 1rem;
     font-size: 16px;
-    color: wihte;
+    color: white;
     line-height: 1em;
     display: inline-block;
     padding: 14px 30px 16px;
@@ -228,10 +227,9 @@ title:after {
     align-self: auto;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    /* border-right: none; */
     margin-right: 0.2em;
     font-size: 12px;
-    line-height: 4em;
+    line-height: 3.9em;
     padding-top: 0;
     padding-bottom: 0;
     background: #fff;
