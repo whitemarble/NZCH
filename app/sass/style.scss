@@ -1,5 +1,5 @@
 $frontType:italic;
-$frontColor:red;
+$frontColor:#ff4e53;
 $contentColor:#000000;
 #main-search {
     display: none;
@@ -99,12 +99,25 @@ a:hover{
     display: flex;
 }
 
+#content:after{
+    margin-top: 1em;
+    display: block;
+    content: '';
+    width: 11.5em;
+    height: 1.5px;
+    bottom: 0.2em;
+    background: $frontColor;
+   
+
+}
+
 .articleImg {
     width: 9em;
     height: 6em;
 }
 .postdate{
-	padding-left: 1em;
+	padding-left: 0.5em;
+	display: inline-block;
 	color:$frontColor; 
 }
 
@@ -126,18 +139,31 @@ a:hover{
 }    
 
 
-
-
-
 .title-line:after,
 title:after {
     position: absolute;
     display: inline-block;
     content: '';
-    width: 100%;
+    width: 11.5em;
     height: 1.5px;
     left: 100%;
     bottom: 0.2em;
     background: $frontColor;
     z-index: -1;
 }
+
+
+.social-list .social-list__items {
+	display: inline-block;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    margin: auto;
+    background: $contentColor;
+}
+.aside{
+  margin-top: 1.8em;
+
+}
+
