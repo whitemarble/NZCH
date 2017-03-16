@@ -1,5 +1,6 @@
 $frontType:italic;
 $frontColor:red;
+$contentColor:#000000;
 #main-search {
     display: none;
     width: 100%
@@ -79,7 +80,7 @@ article {
     font-family: Roboto;
     letter-spacing: 0px;
     text-align: left;
-    color: #000000;
+    color: $contentColor;
     padding-left: 1em;
     word-wrap: break-word;
     word-break: normal;
