@@ -1,16 +1,61 @@
-#main-search{display:none;width:100%}
-#main-search input{flex:1}
-.social-icon{float:right}
-.main-logo{float:left}
-.navbar{width:100%}
-.mobile-search{display:flex}
-.mobile-search .form-control{margin-right:0.5rem}
-.mobile-search button{margin-right:0.5rem}
-
-@media screen and (min-width: 768px) {
-    .mobile-nav{display:none}
-    
+#main-nav{
+    margin-left:180px
 }
-@media screen and (max-width: 768px) {
-    #search-button{display:none}
+.nav-item{
+        border-bottom:solid 2px #eee
+}
+.topbar{
+    padding:0px 120px; 
+    background:#ff4e53;
+    color:#fff; 
+    line-height:20px;
+}
+.top-left{
+    padding:5px 0px 5px 20px;
+}
+nav{
+    padding:0px 120px 0px 120px !important; 
+    background:#eee !important;
+}
+.searchbtn{
+    height:40px;
+    margin-top:30px !important
+}
+@media (min-width:993px){
+    .nav-item{
+        padding-top:30px;
+        padding-bottom:20px
+    }
+    .nav-item.active{
+        background: #ff4e53;
+        border-bottom:solid 2px #ff4e53
+    }
+    .nav-item.active a{
+        color:#fff !important
+    }
+    .nav-item:hover{
+        border-bottom:solid 2px #ff4e53
+    }
+}
+
+@media (max-width: 992px){
+    .navbar-brand img{height:100px !important}
+    nav{
+        padding:10px 20px 0px 20px !important; 
+        min-height:60px;
+    }
+    #main-nav{
+        margin-left:130px;
+        margin-top:0px
+    }
+    .topbar{
+        padding:0px 10px; 
+    }
+}
+
+@media (max-width: 575px) { 
+    #main-nav{
+        margin-left:10px;
+        margin-top:100px
+    }
 }
