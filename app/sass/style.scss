@@ -14,3 +14,30 @@
 @media screen and (max-width: 768px) {
     #search-button{display:none}
 }
+
+
+.title-line{
+    position: relative;
+    display: inline-block;
+    padding-right: 11px;
+}
+
+@media (min-width: 992px){
+
+h2 {
+    font-size: 40px;
+}
+}
+
+
+.title-line:after,title:after {
+    position: absolute;
+    display: inline-block;
+    content: '';
+    width: 400px;
+    height: 1px;
+    left: 100%;
+    bottom: 0.2em;
+    background: #000;
+    z-index: -1;
+}
