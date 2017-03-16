@@ -1,3 +1,6 @@
+$frontType:italic;
+
+
 #main-search{display:none;width:100%}
 #main-search input{flex:1}
 .social-icon{float:right}
@@ -17,6 +20,7 @@
 
 
 .title-line{
+	font-style: $frontType;
     position: relative;
     display: inline-block;
     padding-right: 11px;
