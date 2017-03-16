@@ -71,7 +71,9 @@ figure {
 article {
     display: inline-block;
 }
-
+a:hover{
+	color:black;
+}
 .articleContent {
     font-style: normal;
     font-weight: 20em;
@@ -101,6 +103,31 @@ article {
     width: 9em;
     height: 6em;
 }
+.postdate{
+	padding-left: 1em;
+	color:$frontColor; 
+}
+
+.share_list{
+	display: inline-block;
+	color: $frontColor;
+	transition: .4s all ease;
+    visibility: hidden;
+}
+
+.shareMain{
+	padding-left: 1em;
+	display: inline-block;
+	color:$frontColor; 
+
+}
+.shareMain:hover .share_list{
+ visibility: visible;
+}    
+
+
+
+
 
 .title-line:after,
 title:after {
